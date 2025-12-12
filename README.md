@@ -1,4 +1,4 @@
- CARA AUTO INSTALL DI VPS ANDA:
+🚀 CARA AUTO INSTALL DI VPS ANDA:
 1. Upload ke GitHub:
 
 Buka https://github.com/sukronwae85-design/terlupakan
@@ -55,5 +55,47 @@ sudo -i && bash <(wget -qO- https://raw.githubusercontent.com/sukronwae85-design
 
     Status monitoring real-time
 
-**🎯 UNTUK VPS UBUNTU 18.04/20.
+🎯 UNTUK VPS UBUNTU 18.04/20.04/22.04/24.04:
+
+Script sudah dioptimasi untuk semua versi Ubuntu LTS.
+🔧 SETELAH INSTALLASI:
+Perintah yang tersedia:
+bash
+
+vpn-menu          # Menu utama interaktif
+vpn-user add      # Tambah user
+vpn-user list     # List semua user
+vpn-monitor       # Monitoring server
+vpn-backup        # Backup sistem
+vpn-domain add    # Tambah domain
+
+Akses Web:
+
+    Dashboard: http://SERVER_IP
+
+    Admin: http://SERVER_IP/admin (admin/vpntunnel123)
+
+    Status: http://SERVER_IP/status
+
+📁 STRUKTUR FILE:
+text
+
+/etc/vpntunnel/
+├── users.json              # Database user
+├── domains.json           # Database domain
+├── vmess-config.json      # Config VMESS
+├── tunnel-config.txt      # Config tunnel
+└── installation-summary.txt
+
+⚠️ PENTING:
+
+    Ganti password default setelah instalasi
+
+    Backup config reguler
+
+    Update sistem secara berkala
+
+    Monitor resource usage
+
+Script ini LENGKAP dan sudah siap untuk produksi! Semua fitur VPN tunneling yang Anda butuhkan sudah termasuk. 🚀
 This response is AI-generated, for reference only.
